@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.urlSauceLabs)
+
+WebUI.waitForElementPresent(findTestObject('saucelabs/loginScreen/fieldUsername'), 0)
+
+WebUI.sendKeys(findTestObject('saucelabs/loginScreen/fieldUsername'), username)
+
+WebUI.sendKeys(findTestObject('saucelabs/loginScreen/fieldPassword'), password)
+
+WebUI.click(findTestObject('saucelabs/loginScreen/btnLogin'))
+
+WebUI.waitForElementVisible(findTestObject('saucelabs/loginScreen/btnBurgerMenu'), 0)
+
+WebUI.closeBrowser()
+

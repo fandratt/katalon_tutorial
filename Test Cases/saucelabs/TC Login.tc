@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a1f4516-d5b1-4d63-9436-b2f6e2783927</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcbb3dde-9ce2-45b9-90ab-f5bc0e540ac4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1886bbde-5b0b-4eba-8068-bf1500e1b5e3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>fcbb3dde-9ce2-45b9-90ab-f5bc0e540ac4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>1886bbde-5b0b-4eba-8068-bf1500e1b5e3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

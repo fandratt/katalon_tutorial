@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.saucedemo.com/'</initValue>
+      <name>urlSauceLabs</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
