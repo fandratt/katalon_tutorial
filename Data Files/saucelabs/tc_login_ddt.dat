@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>init</name>
+   <name>tc_login_ddt</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
-   <dataFileGUID>277c9802-392e-410e-b949-376ab973ccff</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>8e933784-cead-4ae9-b73d-f1844b9b932d</dataFileGUID>
+   <dataSourceUrl>csv/saucelabs/tc_login_ddt.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
